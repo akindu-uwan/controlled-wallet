@@ -1,0 +1,27 @@
+{
+  "name": "controlled-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/akindu-uwan/controlled-wallet#readme",
+  "bugs": {
+    "url": "https://github.com/akindu-uwan/controlled-wallet/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akindu-uwan/controlled-wallet.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.1",
+    "hardhat": "^2.27.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
+  }
+}
