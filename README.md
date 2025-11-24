@@ -66,14 +66,14 @@ For get free [sepoliaETH](https://www.alchemy.com/faucets/ethereum-sepolia)
 
 2. Deploy ControlledWallet contract in to sepolia test network:
     ```bash
-    npx hardhat run --network localhost ignition/modules/controlledWallet.js  
+    npx hardhat ignition deploy ./ignition/modules/controlledWallet.js --network sepolia  
 
 After deployment, copy the deployed address into CONTROLLED_WALLET_ADDRESS in .env
 
 3. Deploy myToken contract in to sepolia test network:
 
     ```bash
-    npx hardhat ignition deploy ./ignition/modules/controlledWallet.js --network sepolia
+    npx hardhat ignition deploy ./ignition/modules/myToken.js --network sepolia
 
 After deployment, fill in MYTOKEN_ADDRESS in .env
 
